@@ -1,0 +1,33 @@
+<div class="container mt-5">
+  <div>
+    <button class="btn btn-primary mb-4" routerLink='/new'>Add New User</button>
+    <div>
+        <p>
+          <input #query (keyup)="filter(query.value)" type="text" class="form-control" placeholder="Search...">
+        </p>
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">Full Name</th>
+              <th scope="col">Mobile</th>
+              <th scope="col">Email</th>
+              <th scope="col">Category</th>
+              <th scope="col">Edit</th>
+              <th scope="col">Delete</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let user of allUser ">
+              <td>{{user.name}}</td>
+              <td>{{user.mobile}}</td>
+              <td>{{user.email}}</td>
+              <td>{{user.category.name}}</td>
+              <td><button routerLink="/edit/{{user.id}}" class="btn btn-warning">Edit</button></td>
+              <td><button (click)="deleteUser(user)" class="btn btn-danger">Delete</button></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+  </div>
+    
+</div>

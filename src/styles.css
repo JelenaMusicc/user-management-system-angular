@@ -1,0 +1,9 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
+.navbar{
+    background-color: #f6f6f6;
+}
+.font-20{
+    font-size: 20px!important;
+}

@@ -1,0 +1,252 @@
+{
+  "users": [
+    {
+      "name": "Frank",
+      "mobile": "8368413200",
+      "email": "frank5@gmail.com",
+      "category": {
+        "name": "developer",
+        "description": "Responsible for writing the code",
+        "shapes": [
+          {
+            "name": "triangle",
+            "count": 1
+          },
+          {
+            "name": "circle",
+            "count": 3
+          },
+          {
+            "name": "square",
+            "count": 4
+          }
+        ]
+      },
+      "id": 36
+    },
+    {
+      "name": "Hanry",
+      "mobile": "5465465",
+      "email": "hanry@gmail.com",
+      "category": {
+        "name": "manager",
+        "description": "Responsible for managing developers",
+        "shapes": [
+          {
+            "name": "triangle",
+            "count": 2
+          },
+          {
+            "name": "circle",
+            "count": 5
+          },
+          {
+            "name": "square",
+            "count": 1
+          }
+        ]
+      },
+      "id": 40
+    },
+    {
+      "name": "Sara",
+      "mobile": "836841",
+      "email": "sara@gmail.com",
+      "category": {
+        "name": "manager",
+        "description": "Responsible for managing developers",
+        "shapes": [
+          {
+            "name": "triangle",
+            "count": 2
+          },
+          {
+            "name": "circle",
+            "count": 5
+          },
+          {
+            "name": "square",
+            "count": 1
+          }
+        ]
+      },
+      "id": 42
+    },
+    {
+      "name": "Tom",
+      "mobile": "473847539",
+      "email": "tom@gmail.com",
+      "category": {
+        "name": "devops",
+        "description": "Responsible for AWS infrastucture",
+        "shapes": [
+          {
+            "name": "triangle",
+            "count": 2
+          },
+          {
+            "name": "circle",
+            "count": 6
+          },
+          {
+            "name": "square",
+            "count": 3
+          }
+        ]
+      },
+      "id": 43
+    },
+    {
+      "name": "Bill",
+      "mobile": "8368413234",
+      "email": "bill@gmail.com",
+      "category": {
+        "name": "developer",
+        "description": "Responsible for writing the code",
+        "shapes": [
+          {
+            "name": "triangle",
+            "count": 1
+          },
+          {
+            "name": "circle",
+            "count": 3
+          },
+          {
+            "name": "square",
+            "count": 4
+          }
+        ]
+      },
+      "id": 44
+    },
+    {
+      "name": "Jake",
+      "mobile": "23427834",
+      "email": "jake@gmail.com",
+      "category": {
+        "name": "manager",
+        "description": "Responsible for managing developers",
+        "shapes": [
+          {
+            "name": "triangle",
+            "count": 2
+          },
+          {
+            "name": "circle",
+            "count": 5
+          },
+          {
+            "name": "square",
+            "count": 1
+          }
+        ]
+      },
+      "id": 45
+    },
+    {
+      "name": "Cloe",
+      "mobile": "3453453",
+      "email": "cloe@gmail.com",
+      "category": {
+        "name": "developer",
+        "description": "Responsible for writing the code",
+        "shapes": [
+          {
+            "name": "triangle",
+            "count": 1
+          },
+          {
+            "name": "circle",
+            "count": 3
+          },
+          {
+            "name": "square",
+            "count": 4
+          }
+        ]
+      },
+      "id": 46
+    },
+    {
+      "name": "Ana",
+      "mobile": "384563746",
+      "email": "ana@gmail.com",
+      "category": {
+        "name": "devops",
+        "description": "Responsible for infrastucture",
+        "shapes": [
+          {
+            "name": "triangle",
+            "count": 2
+          },
+          {
+            "name": "circle",
+            "count": 6
+          },
+          {
+            "name": "square",
+            "count": 3
+          }
+        ]
+      },
+      "id": 47
+    }
+  ],
+  "categories": [
+    {
+      "name": "developer",
+      "description": "Responsible for writing the code",
+      "shapes": [
+        {
+          "name": "triangle",
+          "count": 1
+        },
+        {
+          "name": "circle",
+          "count": 3
+        },
+        {
+          "name": "square",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "name": "manager",
+      "description": "Responsible for managing developers",
+      "shapes": [
+        {
+          "name": "triangle",
+          "count": 2
+        },
+        {
+          "name": "circle",
+          "count": 5
+        },
+        {
+          "name": "square",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "devops",
+      "description": "Responsible for AWS infrastucture",
+      "shapes": [
+        {
+          "name": "triangle",
+          "count": 2
+        },
+        {
+          "name": "circle",
+          "count": 6
+        },
+        {
+          "name": "square",
+          "count": 3
+        }
+      ]
+    }
+  ]
+}
