@@ -20,9 +20,10 @@ Run the application: cd [PROJECT NAME] ng serve
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 Install following libreries:
-npm install bootstrap,
 
-npm install chart.js --save,
+npm install bootstrap
+
+npm install chart.js --save
 
 npm  install @fortawesome/fontawesome-free
 
